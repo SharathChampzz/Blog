@@ -38,6 +38,19 @@ body, h1, h2, p {
     font-size: 1.5rem;
   }
   
+/* About Me Section */
+.about-me {
+    text-align: center;
+    padding: 2rem;
+    background: #fff;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+}
+
   /* Project Section */
   main {
     padding: 2rem;
