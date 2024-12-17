@@ -1,18 +1,102 @@
 [
     {
-      "title": "Project 1",
-      "description": "📜 A brief description of Project 1.",
-      "link": "https://github.com/project1-link"
+      "title": "Community Streak 🚀",
+      "description": "📜 Community Streak is a web application designed to help individuals achieve personal goals by creating and maintaining streaks. Users stay motivated through social interaction, gamification, and positive reinforcement.",
+      "link": "https://github.com/SharathChampzz/Community-Streak"
     },
     {
-      "title": "Project 2",
-      "description": "📜 A brief description of Project 2.",
-      "link": ""
+      "title": "Strangers Chatting App 💬",
+      "description": "📜 An Android app allowing users to connect with nearby strangers using Google authentication and location services. It’s a fun way to meet new people and engage in conversations.",
+      "link": "https://github.com/SharathChampzz/Strangers-Chatting-App/tree/main"
     },
     {
-      "title": "Project 3",
-      "description": "📜 Another project description.",
-      "link": "https://github.com/project3-link"
+      "title": "Project Manage Lite 📊",
+      "description": "📜 A microservice-based project designed to automate task follow-ups for project managers. It features email services, FTP integration, a user interface, and web services for seamless task tracking.",
+      "link": "https://github.com/SharathChampzz/ProjectManagerLite"
+    },
+    {
+      "title": "Omegle Lite 🌐",
+      "description": "📜 A web application enabling users to chat with random strangers. Built with FastAPI for backend and real-time WebSocket communication for dynamic pairing.",
+      "link": "https://github.com/SharathChampzz/fast-api-examples/tree/main/12-Omegle-Lite-Stranger-Chatting-WebSocket"
+    },
+    {
+      "title": "News Easy 📰",
+      "description": "📜 A Django-based platform that simplifies news articles using AI. It fetches the latest news from multiple sources and presents it in an easy-to-read format.",
+      "link": "https://github.com/SharathChampzz/NewsEasy"
+    },
+    {
+      "title": "Covid-19 Tracker 🦠",
+      "description": "📜 An Android app that tracks COVID-19 cases using location history. It includes hotspot alerts, self-assessment tools, and home medication advice.",
+      "link": "https://github.com/SharathChampzz/FYP-HealthApp-Covid"
+    },
+    {
+      "title": "NewsBot: Automated News Posting 🤖",
+      "description": "📜 A bot that automates news scraping, admin approval, and posting to social media. It ensures your feeds are always fresh and relevant.",
+      "link": "https://github.com/SharathChampzz/ChampzzProjects/tree/main/upload_insta_news"
+    },
+    {
+      "title": "IOT Service Provider 🌐",
+      "description": "📜 Facilitates communication between Firebase and NodeMCU using Flask. Users can monitor sensor data and send user-defined commands.",
+      "link": "https://github.com/SharathChampzz/IOT-Service-Provider/tree/main"
+    },
+    {
+      "title": "Discord Bot 🤖",
+      "description": "📜 A Python-based Discord bot that can be enhanced with AI models for better user interaction.",
+      "link": "https://github.com/SharathChampzz/ChampzzProjects/tree/main/connect_to_discord"
+    },
+    {
+      "title": "Student Notes App 📚",
+      "description": "📜 An Android app for students to share, search, and download notes categorized by subjects.",
+      "link": "https://github.com/SharathChampzz/StudentNotesApp"
+    },
+    {
+      "title": "Headline Writer 🖼️",
+      "description": "📜 Fetches news articles, generates headlines, and overlays them on related images for a visually appealing summary.",
+      "link": "https://github.com/SharathChampzz/ChampzzProjects/tree/main/news_caption_photo_generator"
+    },
+    {
+      "title": "Send WhatsApp Message 📱",
+      "description": "📜 Automate WhatsApp messages to your loved ones at scheduled times using this Python project.",
+      "link": "https://github.com/SharathChampzz/PythonPrograms/tree/master/Send_WhatsApp_Msg_Python"
+    },
+    {
+      "title": "Patient Monitoring System 🏥",
+      "description": "📜 Transfers data from NodeMCU sensors to an Android app for real-time monitoring.",
+      "link": "https://github.com/SharathChampzz/Patient_Monitoring"
+    },
+    {
+      "title": "Youtube Video Uploader 🎥",
+      "description": "📜 A Python script for automating video uploads to YouTube using the YouTube Data API v3.",
+      "link": "https://github.com/SharathChampzz/ChampzzProjects/tree/main/YoutubeDataAPIv3"
+    },
+    {
+      "title": "Youtube Video Downloader 🎥",
+      "description": "📜 A Python script for downloading YouTube videos with ease.",
+      "link": "https://github.com/SharathChampzz/PythonPrograms/tree/master/YoutubeVideoDownloader"
+    },
+    {
+      "title": "Docx to PDF Converter 📄",
+      "description": "📜 Easily convert DOCX files to PDF with this Python script.",
+      "link": "https://github.com/SharathChampzz/PythonPrograms/blob/master/DocxToPDF.py"
+    },
+    {
+      "title": "Merge PDFs 📑",
+      "description": "📜 Merge multiple PDF files into one using this utility script.",
+      "link": "https://github.com/SharathChampzz/PythonPrograms/blob/master/MergePDFs.py"
+    },
+    {
+      "title": "Images to PDF Converter 🖼️",
+      "description": "📜 Convert image files into a single PDF document.",
+      "link": "https://github.com/SharathChampzz/PythonPrograms/blob/master/ImageToPDF.py"
+    },
+    {
+      "title": "Wikipedia Assistant 🎙️",
+      "description": "📜 A Python-based voice assistant that retrieves data from Wikipedia for quick answers.",
+      "link": "https://github.com/SharathChampzz/PythonPrograms/tree/master/Wikipedia%20Bot%20Python"
+    },
+    {
+      "title": "Geofence Demo App 🌍",
+      "description": "📜 Demonstrates how geofencing works using an Android app.",
+      "link": "https://github.com/SharathChampzz/Geoquery-Android-Geofence-Background"
     }
   ]
-  
