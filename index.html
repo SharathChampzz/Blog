@@ -1,55 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects Portfolio</title>
+    <title>Sharath Kumar H K - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="icon"
-        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>😎</text></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 16 16%22><text y=%2214%22 font-size=%2214%22>🚀</text></svg>">
 </head>
-
 <body>
-    <header>
-        <div class="profile">
-            <img src="images/profile.jpg" alt="Profile Picture" class="fade-in">
-            <h1 class="fade-in">Sharath Kumar H K 😎</h1>
-            <p class="fade-in">Aspiring <strong>Software Developer</strong> 😎 (Currently a <strong>Expert SDET</strong> 🤖) | 🎯 Coding Enthusiast</p>
-            <!-- <p class="fade-in">A tech enthusiast who values consistency and growth. Self-motivated and passionate about
-                coding, I thrive on solving problems and building projects that make a difference in daily life.</p> -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Sharath Kumar H K</a>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
-            <div class="social-links fade-in">
-                <a href="https://www.linkedin.com/in/sharath-kumar-h-k-aaa01716b/" target="_blank"><i
-                        class="fab fa-linkedin"></i></a>
+    <header id="home" class="hero-section">
+        <div class="profile">
+            <img src="images/profile.jpg" alt="Profile Picture" class="profile-img">
+            <h1>Sharath Kumar H K</h1>
+            <p class="subtitle">Expert SDET | Aspiring Software Developer</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/sharath-kumar-h-k-aaa01716b/" target="_blank"><i class="fab fa-linkedin"></i></a>
                 <a href="https://github.com/SharathChampzz" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.instagram.com/sharath_champzz/" target="_blank"><i
-                        class="fab fa-instagram"></i></a>
+                <a href="https://www.instagram.com/sharath_champzz/" target="_blank"><i class="fab fa-instagram"></i></a>
                 <a href="mailto:sharathkumar.mskj.1999@gmail.com"><i class="fas fa-envelope"></i></a>
             </div>
+            <a href="#projects" class="cta-button">View My Work</a>
         </div>
     </header>
 
-    <main>
-        <section class="about-me">
+    <section id="about" class="about-section">
+        <div class="container">
             <h2>About Me</h2>
-            <p>Hello! I'm <strong>Sharath Kumar H K</strong>, an aspiring software developer with a passion for coding and problem-solving. Currently working as an SDET, I am constantly learning and growing in the tech field. I enjoy building projects that make a difference in daily life and am always looking for new challenges to tackle.</p>
-            <!-- <p>You can find my projects below:</p> -->
-        </section>
-        <section class="projects">
-            <h2>📂 My Projects</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Sharath Kumar, a passionate technologist with a blend of software development and quality assurance expertise. As an Expert SDET, I bring a unique perspective to solving complex technical challenges.</p>
+                    <p>My journey is driven by continuous learning, innovative problem-solving, and a commitment to creating impactful software solutions.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight">
+                        <i class="fas fa-code"></i>
+                        <h3>Coding Enthusiast</h3>
+                        <p>Passionate about writing clean, efficient code</p>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-bug"></i>
+                        <h3>QA Expert</h3>
+                        <p>Ensuring software quality and reliability</p>
+                    </div>
+                    <div class="highlight">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Continuous Learner</h3>
+                        <p>Always exploring new technologies</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2>My Skills</h2>
+            <div class="skills-grid" id="skills-container"></div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="python">Python</button>
+                <button class="filter-btn" data-filter="other">Other</button>
+            </div>
             <div id="project-list" class="project-list"></div>
-        </section>
-    </main>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" id="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Sharath Champzz. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2024 Sharath Kumar H K. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/sharath-kumar-h-k-aaa01716b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/SharathChampzz" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
     </footer>
 
-    <div id="toast">Sorry, I don’t have the code saved for this project 😕</div>
+    <div id="toast">Sorry, project details not available 😕</div>
 
     <script src="js/app.js"></script>
 </body>
-
 </html>
