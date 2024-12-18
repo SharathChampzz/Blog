@@ -156,6 +156,12 @@
         "link": ""
     },
     {
+        "title": "IOT bot 🤖",
+        "description": "📜 A small robotic vehicle that can be controlled remotely using a smartphone app. It’s a fun project for learning about IoT and robotics.",
+        "category": "other",
+        "link": ""
+    },
+    {
         "title": "RFID Based Attendance System 🏫",
         "description": "📜 A system that uses RFID technology to track student attendance. It automates the attendance process, making it more efficient and accurate.",
         "category": "other",
@@ -166,5 +172,11 @@
         "description": "📜 A small robotic vehicle that uses sensors to detect and avoid obstacles in its path.",
         "category": "other",
         "link": ""
+    },
+    {
+        "title": "My Portfolio 🧑‍💻",
+        "description": "📜 A personal portfolio website showcasing my projects, skills, and experience. It includes sections for my bio, project showcases, blog posts, and contact information.",
+        "category": "web",
+        "link": "https://github.com/SharathChampzz/Blog"
     }
 ]

@@ -11,14 +11,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Skills Dynamic Rendering
   const skillsData = [
-      { name: 'JavaScript', level: 85 },
-      { name: 'Python', level: 75 },
-      { name: 'Java', level: 70 },
-      { name: 'Selenium', level: 80 },
-      { name: 'React', level: 65 },
-      { name: 'Node.js', level: 60 },
+      { name: 'Python', level: 80 },
+      { name: 'DSA', level: 60 },
       { name: 'SQL', level: 75 },
-      { name: 'Docker', level: 55 }
+      { name: 'JavaScript', level: 50 },
+      { name: 'C#', level: 50 },
+      { name: 'Java', level: 70 },
+      { name: 'HTML', level: 45 },
+      { name: 'CSS', level: 40 },
+      { name: 'FastApi', level: 60 },
+      { name: 'Django', level: 40 },
+      { name: 'Flask', level: 55 },
+      { name: 'Selenium', level: 80 },
+      { name: 'React', level: 45 },
+      { name: 'Docker', level: 30 }
   ];
 
   const skillsContainer = document.getElementById('skills-container');
